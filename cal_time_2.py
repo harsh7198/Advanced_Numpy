@@ -7,3 +7,6 @@ start = time.time()
 
 c = a + b 
 print(time.time()-start)
+
+# numpy array faster then phython list for execution 
+print(time.time())
