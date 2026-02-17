@@ -6,4 +6,7 @@ x = np.linspace(-10, 10 ,100)
 y = np.sin(x) 
 
 plt.plot(x,y)
+plt.xlabel("X values")
+plt.ylabel("Sin(X)")
+plt.title("Sine Wave")
 plt.show()
